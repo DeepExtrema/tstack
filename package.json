@@ -4,5 +4,8 @@
   "private": true,
   "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
   "license": "MIT",
-  "repository": "https://github.com/DeepExtrema/tstack"
+  "repository": "https://github.com/DeepExtrema/tstack",
+  "omp": {
+    "extensions": []
+  }
 }
