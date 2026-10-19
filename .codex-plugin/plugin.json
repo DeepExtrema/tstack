@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tstack",
+  "version": "0.1.0",
+  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
+  "author": {
+    "name": "Taimoor (DeepExtrema)"
+  },
+  "homepage": "https://github.com/DeepExtrema/tstack",
+  "repository": "https://github.com/DeepExtrema/tstack",
+  "license": "MIT",
+  "keywords": [
+    "plan-guard",
+    "drift-audit",
+    "goal-drift",
+    "over-engineering",
+    "scope",
+    "agent-skills"
+  ]
+}

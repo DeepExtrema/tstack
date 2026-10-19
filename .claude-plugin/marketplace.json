@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "tstack",
+  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
+  "owner": {
+    "name": "Taimoor (DeepExtrema)"
+  },
+  "plugins": [
+    {
+      "name": "tstack",
+      "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
