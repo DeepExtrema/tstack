@@ -34,6 +34,8 @@ Never escalate a choice between two implementations of the same behaviour (libra
 
 One per turn. Nothing else in that turn except a one-line status above it. Rendered in markdown that the terminal shows well: short lines, one fenced block for the map, no nested lists, **20 lines maximum** between title and question.
 
+Blocks that other skills or rules require (a plan-guard verdict, a review checklist) go into the plan file, never into the turn. The turn carries at most their one-line verdict, as the status line.
+
 ```
 **Decision N of M · <phase name>**
 <one sentence: what is being decided, in owner language>
@@ -69,8 +71,8 @@ Card rules:
 After the owner answers:
 
 1. Record their pick and reason verbatim.
-2. Show the agent's pick and the single strongest counter-argument to the owner's pick, 3 lines maximum.
-3. If the owner's pick and the agent's pick differ, ask once whether they want to switch. Then close the decision either way.
+2. Show the agent's pick and the single strongest counter-argument to the owner's pick, 3 lines maximum. Anything the agent decides on top of the owner's pick is an agent's call: it goes in the ledger, not here.
+3. If the owner's pick and the agent's pick differ, ask once whether they want to switch, and stop the turn there. Then close the decision either way. If the picks match, the next card follows in the same turn, under the reveal.
 4. Track agreement across the phase. If the owner agrees with the agent on every card, say so at the end of the phase: it means the cards were unreadable or the triage escalated trivia. Tighten both.
 
 Never show the agent's pick before the owner has answered. If the owner asks for it first, give it, mark the decision as agent-led in the record.
