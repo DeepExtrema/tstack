@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "tstack",
-  "version": "0.1.0",
-  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
+  "version": "0.2.0",
+  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, comb walks the system owner through design decisions one card at a time, plus personal workstation skills.",
   "author": {
     "name": "Taimoor (DeepExtrema)"
   },
@@ -12,6 +12,8 @@
   "keywords": [
     "plan-guard",
     "drift-audit",
+    "comb",
+    "decision-cards",
     "goal-drift",
     "over-engineering",
     "scope",

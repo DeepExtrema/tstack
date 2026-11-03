@@ -1,8 +1,8 @@
 {
   "name": "tstack",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, plus personal workstation skills.",
+  "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, comb walks the system owner through design decisions one card at a time, plus personal workstation skills.",
   "license": "MIT",
   "repository": "https://github.com/DeepExtrema/tstack",
   "omp": {

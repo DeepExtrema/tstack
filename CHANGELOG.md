@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 (2026-11-03)
+
+- comb: owner-facing design review. Reversal-cost triage, ≤3 owner cards per phase, one card per turn in the terminal, commit-then-reveal, agent's-calls ledger with undo, `expand`/`why`/`code`/`map` on demand.
+
 ## 0.1.0 (2026-10-19)
 
 - plan-guard: ten-gate plan review with sourced rulebook, drift signatures, templates, Greenfield case.
