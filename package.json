@@ -1,6 +1,6 @@
 {
   "name": "tstack",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Taimoor's drift-prevention stack: plan-guard gates plans before work, drift-audit measures running projects against their original goal, comb walks the system owner through design decisions one card at a time, plus personal workstation skills.",
   "license": "MIT",
